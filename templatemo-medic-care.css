@@ -1048,6 +1048,14 @@ height: 0;
   cursor: pointer;
 }
 
-.img-fluid{
+.reviews-carousel .owl-next span::before {
+  content: ">";
+}
 
+.reviews-carousel .owl-prev span, .reviews-carousel .owl-next span {
+  color: transparent;
+}
+
+.reviews-carousel .owl-prev span::before {
+  content: "<";
 }
